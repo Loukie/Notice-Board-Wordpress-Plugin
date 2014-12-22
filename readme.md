@@ -11,7 +11,7 @@ Description
 
 This plugin allows you to show off notices and special announcements on your WordPress site. You can use the Notice Board widget to display recent notices and special announcements in a widget area. Or use a shortcode to display notices and special announcements within a table or as a list in the main content area for a post or page. 
 
-This plugin registers a 'notice' slug for all notices as post, so don't create a page or post with 'notice' slug or set the parmalink to "http://yourwordpressdomain/notice". It would conflict with the permalinks.
+> **Note:** This plugin registers a 'notice' slug for all notices as post, so don't create a page or post with 'notice' slug or set the parmalink to "http://yourwordpressdomain/notice". It would conflict with the permalinks.
 
 
 ----------
