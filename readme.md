@@ -66,12 +66,12 @@ Usage
 Frequently Asked Questions
 -------------------
 
-1. How can I display the notices in  my site?
-**Ans:-** You can use the 'Notice Board' widget to display a scrolling or static list of notices in your widget area or you can use the `[notice-board]` shortcode to display them in a post or page.
-2. How do I change the default display of the notices in a page/post?
-	**Ans:-** When using the notice board shortcode, You can specify aditional options to controll its appearance. Refer to the usage instructions above to know about the options available. 
-3. How can I customize the CSS for the notices?
-	**Ans:-** Both the shortcode and the widget are wrapped inside the css class 'msnb-notice' and 'widget_notice_board_widget' respectively. You can target them using their respective classes in your theme's custom CSS code.
+1. **How can I display the notices in  my site?**
+	You can use the 'Notice Board' widget to display a scrolling or static list of notices in your widget area or you can use the `[notice-board]` shortcode to display them in a post or page.
+2. **How do I change the default display of the notices in a page/post?**
+	When using the notice board shortcode, You can specify aditional options to controll its appearance. Refer to the usage instructions above to know about the options available. 
+3. **How can I customize the CSS for the notices?**
+	Both the shortcode and the widget are wrapped inside the css class 'msnb-notice' and 'widget_notice_board_widget' respectively. You can target them using their respective classes in your theme's custom CSS code.
 
 Changelog
 --------------
