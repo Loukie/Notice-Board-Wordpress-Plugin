@@ -286,11 +286,11 @@ function msnb_notice_shortcode( $atts ){
 				$html.= '<tr><td>'.$sl.'</td><td>'. get_the_time( get_option('date_format') , $post->ID) .'</td><td>'. get_the_title() .'</td>';
 				if ( get_post_meta( $post->ID, 'msnb_notice_url', true ) == '' ) {
 					$html.= '<td> <a href="' . 
-						get_permalink() . '">VIEW</a></td>';
+						get_permalink() . '">view</a></td>';
 				}
 				else {
 					$html.= '<td><a href="' . get_post_meta( $post->ID, 'msnb_notice_url', true ) 
-						. '">VIEW</a></td>';
+						. '">view</a></td>';
 				}
 				$html .= "</td>";
 				$sl++;
