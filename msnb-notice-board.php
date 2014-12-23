@@ -277,6 +277,7 @@ function msnb_notice_shortcode( $atts ){
 		 */
 		$html .= '<div class="msnb-notice">';
 		if('table'==$format){
+			if ( $class == '' ) $class = 'table';
 			$html.= "<table class='$class'>";
 			$html.= "<tr><th>Sl No</th><th>Date Published</th><th>Subject</th><th>Link</th></tr>";
 			$sl = 1;
