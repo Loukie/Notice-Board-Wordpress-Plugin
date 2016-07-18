@@ -280,10 +280,10 @@ function msnb_notice_shortcode( $atts ){
 			if ( $class == '' ) $class = 'table';
 			$html.= "<table class='$class'>";
 			$html.= "<tr><th>Sl No</th><th>Deadline</th><th>Subject</th><th>Link</th></tr>";
-			$sl = 1;
+			//$sl = 1;
 			while ( $query->have_posts() ) {
 				$query->the_post();
-				$html.= '<tr><td>'.$sl.'</td><td>'. get_the_time( get_option('date_format') , $post->ID) .'</td><td>'. get_the_title() .'</td>';
+				$html.= '<tr><td><img src= "http://fidato.hmgtech.co.za/icons_07_deadline.png" alt="test"/></td><td>'. get_the_time( get_option('date_format') , $post->ID) .'</td><td>'. get_the_title() .'</td>';
 				if ( get_post_meta( $post->ID, 'msnb_notice_url', true ) == '' ) {
 					$html.= '<td> <a href="' . 
 						get_permalink() . '">view</a></td>';
@@ -293,7 +293,7 @@ function msnb_notice_shortcode( $atts ){
 						. '">view</a></td>';
 				}
 				$html .= "</td>";
-				$sl++;
+				//$sl++;
 			}
 			
 			$html.= "</tr></table>";
