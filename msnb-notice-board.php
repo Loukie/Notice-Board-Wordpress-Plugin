@@ -279,7 +279,7 @@ function msnb_notice_shortcode( $atts ){
 		if('table'==$format){
 			if ( $class == '' ) $class = 'table';
 			$html.= "<table class='$class'>";
-			$html.= "<tr><th>Sl No</th><th>Date Published</th><th>Subject</th><th>Link</th></tr>";
+			$html.= "<tr><th>Sl No</th><th>Deadline</th><th>Subject</th><th>Link</th></tr>";
 			$sl = 1;
 			while ( $query->have_posts() ) {
 				$query->the_post();
